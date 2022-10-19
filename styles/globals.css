@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
   [type="text"],
   [type="email"],
   [type="url"],
@@ -24,4 +24,4 @@
   [type="radio"] {
     @apply rounded-md  text-indigo-600 drop-shadow-sm;
   }
-}
+} */
