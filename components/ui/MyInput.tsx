@@ -6,7 +6,7 @@ interface IInput extends InputHTMLAttributes<any> {
 
 const MyInput: FC<IInput> = ({ label, ...props }) => {
   return (
-    <div className="relative my-2">
+    <div className="relative">
       <input
         {...props}
         className="peer border-0 pl-0 h-10 w-full border-b-2 border-gray-300 text-gray-900

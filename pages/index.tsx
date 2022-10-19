@@ -26,12 +26,12 @@ const Home: NextPage = () => {
               <h1 className="text-2xl font-semibold text-gray-900">
                 Welcome back!
               </h1>
-              <form className="mt-12 flex flex-col gap-5">
+              <form className="mt-12 flex flex-col gap-8">
                 <MyInput label="Email address" id="email" type="email" />
                 <MyInput label="Username" id="username" type="text" />
                 <MyInput label="Password" id="password" type="password" />
 
-                <MyButton type="submit">Sign In</MyButton>
+                <MyButton type="button">Sign In</MyButton>
               </form>
               <a
                 href="#"
