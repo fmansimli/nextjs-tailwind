@@ -24,7 +24,7 @@ const Navbar: FC<INavbar> = (props) => {
           <a href="#" className="hover:text-red-500">
             Careers
           </a>
-          <a href="#" className="hover:text-red-500">
+          <a href="/test" className="hover:text-red-500">
             Community
           </a>
         </div>

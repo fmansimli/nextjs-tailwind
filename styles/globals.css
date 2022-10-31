@@ -25,3 +25,10 @@
     @apply rounded-md  text-indigo-600 drop-shadow-sm;
   }
 } */
+
+@layer base {
+  [type="checkbox"],
+  [type="radio"] {
+    @apply rounded-md  text-indigo-600 drop-shadow-sm;
+  }
+}
