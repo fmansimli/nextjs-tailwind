@@ -1,4 +1,5 @@
 import { FC } from "react";
+import Image from "next/image";
 
 interface INavbar {
   //
@@ -9,7 +10,7 @@ const Navbar: FC<INavbar> = (props) => {
     <nav className="relative container mx-auto p-5">
       <div className="flex justify-between items-center">
         <div className="pt-2">
-          <img src="/img/logo.svg" alt="logo" />
+          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
         </div>
         <div className="hidden md:flex space-x-16 ">
           <a href="#" className="hover:text-red-500">
