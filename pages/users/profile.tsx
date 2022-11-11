@@ -18,8 +18,6 @@ const ProfilePage: NextPage<PageProps> = (props) => {
 export async function getServerSideProps(context: GetServerSidePropsContext) {
   const { req, res, params } = context;
 
-  console.log(req.headers);
-
   try {
     return { props: { profile: req.cookies } };
   } catch (error) {

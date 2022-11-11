@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, Fragment } from "react";
 import Navbar from "../components/_common/Navbar";
 import Footer from "../components/_common/Footer";
 
@@ -10,7 +10,7 @@ const Layout: FC<ILayout> = (props) => {
   return (
     <div>
       <Navbar />
-      <main className="">{props.children}</main>
+      <Fragment>{props.children}</Fragment>
       <Footer />
     </div>
   );

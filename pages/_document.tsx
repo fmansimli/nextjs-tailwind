@@ -2,12 +2,11 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="az">
+    <Html>
       <Head />
       <body>
         <Main />
         <NextScript />
-        <div id="portal"></div>
       </body>
     </Html>
   );

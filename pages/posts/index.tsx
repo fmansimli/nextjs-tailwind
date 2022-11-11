@@ -1,9 +1,8 @@
 import type { NextPage, GetStaticPropsContext } from "next";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
+import Link from "next/link";
 import Head from "next/head";
-import Image from "next/image";
 import { http } from "../../http/http";
 
 interface PageProps {
